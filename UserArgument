@@ -1,1 +1,9 @@
+#!/bin/bash echo 
 
+echo "Stranger: Hello, I am $1"
+sleep 2 
+echo "Me: Hello, Do I know you ? " 
+sleep 2
+echo "Stranger: Yes, same batch 2019 "
+sleep 3
+echo "Me: Oh yes, Now I remember"
