@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+source_dir=/home/ubuntu/scripts 
+target_dir=/home/ubuntu/backups 
+
+current_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+
+backup_file=$target_dir/$current_timestamp.tgz 
+
+echo " Taking backup on $current_timestamp" 
+
+tar czf $backup_file --absolute-names source_dir 
+
+echo "Backup complete"
