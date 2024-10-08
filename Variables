@@ -1,1 +1,5 @@
+#!/bin/bash
 
+echo "I will be a great DevOps Engineer"
+name="Suman" 
+echo "Hello ${name}"
