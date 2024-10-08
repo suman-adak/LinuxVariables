@@ -1,1 +1,6 @@
+#!/bin/bash 
 
+name="Suman" 
+echo "Hello ${name}, please enter your age" 
+read age 
+echo "My age is ${age}"
